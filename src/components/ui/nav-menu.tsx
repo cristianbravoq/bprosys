@@ -74,13 +74,13 @@ export function MainNavigationMenu() {
                       </Link>
                     </NavigationMenuLink>
                   </li>
-                  <ListItem href="" title="Servicios">
+                  <ListItem href="/" title="Servicios">
                     Descubre nuestro catalogo de servicios.
                   </ListItem>
-                  <ListItem href="" title="Sala VIP">
+                  <ListItem href="/" title="Sala VIP">
                     Servicios exclusivos para clientes exclusivos.
                   </ListItem>
-                  <ListItem href="" title="Proteccion">
+                  <ListItem href="/" title="Proteccion">
                     Cuida a los que amas y protege tu patrimonio.
                   </ListItem>
                 </ul>
@@ -108,7 +108,7 @@ export function MainNavigationMenu() {
 
             <NavigationMenuItem>
               <Link
-                href="/docs"
+                href="/"
                 passHref
                 className="block select-none text-xl font-medium space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
               >
@@ -142,19 +142,19 @@ export function MainNavigationMenu() {
                   variant={"link"}
                   className="text-base text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Introduction
+                  Servicios
                 </Button>
                 <Button
                   variant={"link"}
                   className="text-base text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Installation
+                  Sala VIP
                 </Button>
                 <Button
                   variant={"link"}
                   className="text-base text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Typography
+                  Proteccion
                 </Button>
 
                 {/* Productos u otras secciones dinámicas */}
