@@ -67,8 +67,8 @@ Guía para ejecutar el proyecto de productos financieros en tu entorno local de 
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/cristianbravoq/bprosys
+cd bprosys
 
 npm install
 npm run dev
