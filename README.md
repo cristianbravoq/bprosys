@@ -24,8 +24,6 @@ Usé **Styled Components** solo en casos puntuales donde:
 - Era importante encapsular comportamiento visual por componente.
 - El componente iba a escalar y necesitaba mantener una firma visual clara y aislada del resto del diseño.
 
-Esta dualidad permite mantener velocidad sin sacrificar mantenibilidad o escalabilidad.
-
 ---
 
 ## ¿Qué harías para escalar este proyecto en una aplicación real de banca digital?
@@ -51,10 +49,12 @@ Para escalarlo a una app bancaria real:
 - **Analítica de uso**: Mixpanel o PostHog para evaluar cómo interactúan los usuarios con los productos.
 - **Testing y CI/CD**: Cypress para pruebas E2E, Jest para unit testing, GitHub Actions para integración continua.
 
+---
+
 
 # Iniciar el Proyecto Localmente
 
-Este documento te guía para ejecutar el proyecto de productos financieros en tu entorno local de desarrollo.
+Guía para ejecutar el proyecto de productos financieros en tu entorno local de desarrollo.
 
 ## Requisitos Previos
 
