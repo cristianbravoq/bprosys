@@ -89,7 +89,7 @@ export function MainNavigationMenu() {
 
             <NavigationMenuItem>
               <NavigationMenuTrigger className="bg-transparent">
-                Components
+                Servicios
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
@@ -112,7 +112,7 @@ export function MainNavigationMenu() {
                 passHref
                 className="block select-none text-xl font-medium space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
               >
-                Documentation
+                Enterate
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
